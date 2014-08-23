@@ -1,0 +1,7 @@
+<a id="target" href="tel://0000">click me</a>
+<script>
+var target = document.getElementByld("target");
+var fakeEvent = document.createEvent ("MouseEvents")
+fakeEvent.initEvent("click", true, false);
+target.dispatchEvent(fakeEvent);
+</script>
